@@ -1,0 +1,72 @@
+/* ------------------- Chat container ------------------- */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-width: 450px;
+    max-width: 575px;
+    width: 60%;
+    min-height: 450px;
+    height:80vh;
+    /* height: auto; */
+    margin: 10px 0 10px 0;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: white;
+}
+
+
+
+/* ------------------- Chat content ------------------- */
+#room-status {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    color: #a8a8a8;
+    background-color: transparent;
+}
+
+.chat-messages {
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 16px 16px 14px;
+    font-size: 12px;
+    background-color: transparent;
+}
+
+.chat-messages div {
+    font-size: 13px;
+    background-color: transparent;
+}
+
+
+
+/* ------------------- Create chat ------------------- */
+.create-chat {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-top: 1px solid #DBDBDB;
+}
+
+.create-chat input {
+    border: none;
+    width: 100%;
+}
+
+.create-chat input::placeholder {
+    font-size: 14px;
+    color: #8E8E8E;
+}
+
+#chat-submit {
+    border: none;
+    font-weight: bold;
+    color: #2694fc;
+    cursor: pointer;
+}
+
+#chat-submit:disabled {
+    color: #8ba8c4;
+    cursor: default;
+}
