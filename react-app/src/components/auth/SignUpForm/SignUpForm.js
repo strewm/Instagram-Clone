@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { Redirect } from 'react-router-dom';
 import { signUp } from '../../../store/session';
 import Footer from '../../Footer';
-import textLogo from '../text-clone-logo.png';
+import textLogo from '../../Images/text-clone-logo.png';
 import './SignUpForm.css'
 
 

@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import noPic from './no-profile-alt.jpg'
-import { Modal } from '../../context/Modal'
+
+import { Modal } from '../../context/Modal';
 import * as followingActions from '../../store/followers';
 import EditProfileModal from './UserEditModal';
 import ProfilePostDetail from './ProfilePostDetail';
 import Footer from '../Footer';
+import noPic from '../Images/no-profile-alt.jpg';
+
 import './ProfilePostDetail.css';
 import './User.css';
 

@@ -1,0 +1,43 @@
+/* ------------------- Login splash image ------------------- */
+.splash-image {
+    position: relative;
+    /* bottom: 21em; */
+}
+
+.splash-image img {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 17px;
+    left: 20px;
+    background-color: transparent;
+
+    animation: splashAnimation 12s ease-in-out infinite;
+}
+
+#splash-image-1 {
+    position: relative;
+    width: 290px;
+    top: 0;
+    left: 0;
+    animation: none;
+}
+
+#splash-image-2 {
+    animation-delay: 7s;
+}
+
+#splash-image-3 {
+    animation-delay: 4s;
+}
+
+#splash-image-4 {
+    animation-delay: 1s;
+}
+
+@keyframes splashAnimation {
+    0% { opacity: 1; }
+    25% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}

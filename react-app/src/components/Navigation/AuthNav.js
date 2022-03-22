@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
 import UploadPostModal from "../Posts/UploadPostModal";
-import LogoutButton from '../auth/LogoutButton';
-import textLogo from './text-clone-logo.png';
+import LogoutButton from '../Auth/LogoutButton';
+import textLogo from '../Images/text-clone-logo.png';
 import './AuthNav.css';
 
 

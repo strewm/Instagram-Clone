@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import ProtectedRoute from './components/auth/ProtectedRoute';
-import LoginForm from './components/auth/LoginForm/LoginForm';
-import SignUpForm from './components/auth/SignUpForm/SignUpForm';
+import ProtectedRoute from './components/Auth/ProtectedRoute';
+import LoginForm from './components/Auth/LoginForm/LoginForm';
+import SignUpForm from './components/Auth/SignUpForm/SignUpForm';
 import NavBar from './components/Navigation';
 import UsersList from './components/ProfilePage/UsersList';
 import User from './components/ProfilePage/User';

@@ -1,16 +1,36 @@
 /* ------------------- Login Container ------------------- */
-.login-page{
+.login-page {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
+.left-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 55px;
+}
+
+.right-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* ------------------- Login elements ------------------- */
 .login-container {
     width: 350px;
     height: 380px;
-    border: 1.75px solid #DBDBDB;
+    border: 1.2px solid #DBDBDB;
     border-radius: 1px;
 
     display: flex;
@@ -21,9 +41,6 @@
     background-color: white;
 }
 
-
-
-/* ------------------- Login elements ------------------- */
 .auth-logo {
     height: 41px;
     display: flex;
@@ -86,7 +103,7 @@ input::placeholder {
     width: 350px;
     height: 70px;
     margin-top: 10px;
-    border: 1.75px solid #DBDBDB;
+    border: 1.2px solid #DBDBDB;
     border-radius: 1px;
 
     display: flex;
