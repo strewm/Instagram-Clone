@@ -126,3 +126,13 @@ input::placeholder {
     background-color: white;
     color: #2694fc;
 }
+
+
+
+
+/* ------------------- Media queries ------------------- */
+@media only screen and (max-width: 850px) {
+    .left-wrapper {
+        display: none;
+    }
+}
