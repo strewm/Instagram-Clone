@@ -15,7 +15,8 @@
 }
 
 .auth-nav-sub-container {
-    min-width: 975px;
+    min-width: 625px;
+    max-width: 975px;
     display: flex;
     justify-content: space-between;
     align-items: center;
