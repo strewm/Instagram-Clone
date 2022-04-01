@@ -1,0 +1,9 @@
+/* ------------------- Home profile card container ------------------- */
+.profile-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+/* ------------------- Profile card content ------------------- */

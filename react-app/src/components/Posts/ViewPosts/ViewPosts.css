@@ -1,13 +1,40 @@
-/* ------------------- All posts container ------------------- */
-.all-post-container {
-    width: 100vw;
+/* ------------------- Home page ------------------- */
+.home-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin: 0; */
+    /* width: 100vw; */
 }
 
+
+/* ------------------- Main home container ------------------- */
+.main-home-container {
+    display: flex;
+    /* justify-content: center; */
+    width: auto;
+    /* width: 625px; */
+    /* width: 925px; */
+    /* max-width: 975px; */
+}
+
+
+/* ------------------- Left home container ------------------- */
+.home-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    /* width: 75%; */
+}
+
+
+/* ------------------- Right home container ------------------- */
+.home-right {
+    width: 30%;
+    margin: 12px;
+}
 
 
 /* ------------------- Individual post containers ------------------- */

@@ -17,13 +17,13 @@ function User() {
   const dispatch = useDispatch()
   const { userId }  = useParams();
   const [user, setUser] = useState({});
-  const [following, setFollowing] = useState([])
-  const [followers, setFollowers] = useState([])
-  const [posts, setPosts] = useState([])
-  const [showModal, setShowModal] = useState(false)
-  const [update, setUpdate] = useState(false)
-  const [pL, setPL] = useState([])
-  const current_user = useSelector((state) => state.session.user.id)
+  const [following, setFollowing] = useState([]);
+  const [followers, setFollowers] = useState([]);
+  const [posts, setPosts] = useState([]);
+  const [showModal, setShowModal] = useState(false);
+  const [update, setUpdate] = useState(false);
+  const [pL, setPL] = useState([]);
+  const current_user = useSelector((state) => state.session.user.id);
 
 
   useEffect(async() => {
