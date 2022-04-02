@@ -1,0 +1,47 @@
+/* ------------------- Home profile card container ------------------- */
+.profile-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    position: sticky;
+    top: 83.75px;
+    z-index: 0;
+}
+
+
+/* ------------------- Profile card content ------------------- */
+.profile-card {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile-card img {
+    border: 1px solid #DBDBDB;
+    border-radius: 50%;
+}
+
+#profile-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+#profile-card-username {
+    font-size: 14px;
+}
+
+#profile-card-name {
+    font-size: 13px;
+    color: #8E8E8E;
+}
+
+
+/* ------------------- Profile card suggestions ------------------- */
+.profile-suggestions div:first-child {
+    margin-top: 13px;
+    font-weight: 600;
+    font-size: 14px;
+    color:#8E8E8E;
+}

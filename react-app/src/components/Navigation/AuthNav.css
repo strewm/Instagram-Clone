@@ -1,25 +1,28 @@
 /* ------------------- Navbar Container ------------------- */
 .auth-nav-container {
-    /* z-index: 1; */
-    /* position: sticky; */
+    z-index: 100;
+    position: sticky;
+    top: 0px;
+
     width: 100vw;
-    top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     padding: 15px;
 
     display: flex;
     justify-content: space-evenly;
 
-    border-bottom: 1.75px solid #DBDBDB;
+    border-bottom: 1px solid #DBDBDB;
     background-color: white;
 }
 
 .auth-nav-sub-container {
-    min-width: 650px;
+    min-width: 625px;
+    max-width: 975px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
+
 }
 
 .auth-nav-container > * {
@@ -67,6 +70,10 @@
     color: #262626;
 }
 
+#navbar-chat a i {
+    background-color: transparent;
+}
+
 #profile-button:hover {
     cursor: pointer;
 }
@@ -74,10 +81,32 @@
 
 
 /* ------------------- Dropdown components ------------------- */
+.profile-dropdown:before, .profile-dropdown:after {
+    position: absolute;
+    top: -12px;
+    right: 19px;
+
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 12px 12px 12px;
+    border-color: transparent transparent white transparent;
+
+    z-index: 99;
+}
+
+.profile-dropdown:after {
+    top: -13px;
+    border-color: transparent transparent #e4e4e4 transparent;
+    z-index: 98;
+}
+
 .profile-dropdown {
+    z-index: 100;
+    position: absolute;
     top: 60px;
     margin-left: 90px;
-    position: absolute;
     height: 68.5px;
     padding: 15px;
 
