@@ -83,19 +83,15 @@ function ProfileCard() {
 
   return (
     <div className='profile-card-container'>
-        <div id='profile-card-picture'>
-            <img src={current_user.profile_picture || noPic} style={{"height": "130px", "width": "130px"}} alt='profile-picture'></img>
+        <div className='profile-card'>
+            <img src={current_user.profile_picture || noPic} style={{"height": "55px", "width": "55px"}} alt='profile-picture'></img>
+            <div id='profile-card-info'>
+                <div id='profile-card-username'>{current_user.username}</div>
+                <div id='profile-card-name'>{current_user.first_name} {current_user.last_name}</div>
+            </div>
         </div>
-        <div id='profile-card-info'>
-            <span id='row-one'>
-                <div id='profile-username'>{current_user.username}</div>
-            </span>
-            <span id='row-three'>
-                <div><b>{current_user.first_name} {current_user.last_name}</b></div>
-            </span>
-            <span id='row-four'>
-                <div>{current_user.biography}</div>
-            </span>
+        <div className='profile-suggestions'>
+            <div>Suggestions For You</div>
         </div>
     </div>
   );

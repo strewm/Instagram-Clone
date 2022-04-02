@@ -1,16 +1,17 @@
 /* ------------------- Navbar Container ------------------- */
 .auth-nav-container {
-    /* z-index: 1; */
-    /* position: sticky; */
+    z-index: 100;
+    position: sticky;
+    top: 0px;
+
     width: 100vw;
-    top: 0;
     margin-bottom: 12px;
     padding: 15px;
 
     display: flex;
     justify-content: space-evenly;
 
-    border-bottom: 1.75px solid #DBDBDB;
+    border-bottom: 1px solid #DBDBDB;
     background-color: white;
 }
 
@@ -21,6 +22,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
+
 }
 
 .auth-nav-container > * {
@@ -76,9 +78,10 @@
 
 /* ------------------- Dropdown components ------------------- */
 .profile-dropdown {
+    z-index: 100;
+    position: absolute;
     top: 60px;
     margin-left: 90px;
-    position: absolute;
     height: 68.5px;
     padding: 15px;
 
