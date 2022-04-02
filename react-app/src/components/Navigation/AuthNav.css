@@ -70,6 +70,10 @@
     color: #262626;
 }
 
+#navbar-chat a i {
+    background-color: transparent;
+}
+
 #profile-button:hover {
     cursor: pointer;
 }
@@ -77,6 +81,27 @@
 
 
 /* ------------------- Dropdown components ------------------- */
+.profile-dropdown:before, .profile-dropdown:after {
+    position: absolute;
+    top: -12px;
+    right: 19px;
+
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 12px 12px 12px;
+    border-color: transparent transparent white transparent;
+
+    z-index: 99;
+}
+
+.profile-dropdown:after {
+    top: -13px;
+    border-color: transparent transparent #e4e4e4 transparent;
+    z-index: 98;
+}
+
 .profile-dropdown {
     z-index: 100;
     position: absolute;
