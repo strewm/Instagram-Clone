@@ -14,7 +14,6 @@ def getFollow(id):
 
     res = {}
 
-
     for name in current_user.followers:
         res[name.id] = name.to_dict()
 
